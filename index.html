@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+
+  <style>
+    
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .attribution { 
+      font-size: 11px; 
+      width: 50%;
+
+      position: absolute;
+      bottom: 0px;
+      margin: auto;
+    }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      background-color:hsl(212, 45%, 89%);
+    
+    }
+
+    #card{
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     margin-left: -150px;
+     margin-top: -225px;
+     width: 300px;
+     height: 450px;
+     padding: 15px;
+     border-radius: 15px;
+     background-color: white;
+     text-align: center;
+     top: 50%;
+     left: 50%;
+    }
+    
+    #content{
+      max-width: 700px;
+    }
+    img{
+      max-width:99%;
+      border-radius: 10px;
+    }
+    h1{
+      font-family: "Outfit"; 
+      color: hsl(218, 44%, 22%); 
+      font-size: 22px;
+      margin-top: 10px;
+    }
+    p{
+      font-family: "Outfit"; 
+      font-size: 15px;
+      color:hsl(220, 15%, 55%); 
+      font-weight: 400;
+      margin-top: 10px;
+      margin-right: 20px;
+      margin-left: 20px;
+
+    }
+  </style>
+</head>
+<body>
+
+    <main id="card">
+      <div id="content">
+        <img src="images/image-qr-code.png" alt="">
+      <h1> Improve your Front-end skills by building projects</h1>
+
+      <p >Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
+      
+    </main>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Aryarishi Sikdar</a>.
+  </footer>
+</body>
+</html>
